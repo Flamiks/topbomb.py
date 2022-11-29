@@ -342,11 +342,7 @@ while True:
 		print(Fore.GREEN + '[+] Fix-price.com отправлено!')
 	except:
 		print(Fore.RED + '[-] Не отправлено!')
-	try:
-		requests.post(https://www.akbars.ru/api/PhoneConfirm/ " json={"msisdn":_phone,"password":passakbars})
-		print(Fore.GREEN + '[+] akbars.ru отправлено!')
-	except:
-		print(Fore.RED + '[-] Не отправлено!')
+
 	try:
 		iteration += 1
 		print(('{} следущий цикл.').format(iteration))
